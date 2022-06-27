@@ -4,14 +4,14 @@
  */
 
 package com.mycompany.ultimaclase4;
-
 /**
  *
  * @author Liliana
  */
 public class UltimaClase4 {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    public static void main(String[] args) {//metodo principal
+       Formularios.FormulariosGeneral objetoFormularioGeneral= new Formularios.FormulariosGeneral();
+       objetoFormularioGeneral.setVisible(true);
     }
 }
